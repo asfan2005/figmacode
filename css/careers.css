@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.careers {
+   width: 100%;
+   margin-top: 40px;
+ }
+ 
+ .care1 {
+   width: 90%;
+   display: flex;
+   justify-content: space-between;
+   background: rgba(242, 245, 249, 1);
+   height: 128px;
+   margin: 10px auto;
+ }
+ .care1Text {
+   font-family: Space Mono;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 28px;
+   letter-spacing: -1.0714285373687744px;
+   text-align: left;
+   color: rgba(73, 85, 103, 1);
+   margin: auto;
+ }
+ .care1Text p {
+   font-family: Lexend Deca;
+   font-size: 15px;
+   font-weight: 400;
+   line-height: 25px;
+   text-align: left;
+   color: rgba(73, 85, 103, 1);
+ }
+ 
+ .care1Btn {
+   width: 180px;
+   height: 53px;
+   top: 1747px;
+   left: 1031px;
+   gap: 0px;
+   opacity: 0px;
+   background: rgba(252, 183, 43, 1);
+   margin: auto;
+   border: none;
+   font-family: Space Mono;
+   font-size: 15px;
+   font-weight: 700;
+   line-height: 25px;
+   text-align: center;
+   color: rgba(255, 255, 255, 1);
+ }
+ 
+ 
+ @media(max-width:460px){
+   .careers{
+     width: 100%;
+   }
+   .care1{
+     margin-top: 5px;
+   }
+   .care1Text{
+     font-size: 20px;
+   }
+   .care1Text p{
+     font-size: 14px;
+   }
+   .care1Btn{
+     width: 150px;
+     height: 40px;
+   }
+ }
+ 
+ @media(max-width:375px){
+   .careers{
+     width: 100%;
+   }
+   .care1{
+     width: 100%;
+     flex-wrap: wrap;
+     text-align: center;
+     align-items: center;
+   }
+   .care1Text{
+     width: 100%;
+     text-align: center;
+     align-items: center;
+     margin: auto;
+   }
+   .care1Text p{
+     text-align: center;
+     align-items: center;
+   }
+   .care1Btn{
+     text-align: center;
+     align-items: center;
+     margin: auto;
+   }
+ 
+ }
